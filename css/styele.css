@@ -69,3 +69,130 @@
     color: #fff;
 }
 
+
+/* hero section */
+
+#hero-section .carousel-caption {
+    background: #fff;
+    clip-path: polygon(100% 100%, 100% 150px, 0 100%);
+    color: #000;
+    top: 1px;
+    bottom: -1px;
+    right: 0;
+    left: auto;
+    text-align: right;
+    min-width: 680px;
+    min-height: 680px;
+    padding: 100px 100px 50px 100px;
+}
+
+@media screen and (max-width:991px){
+    #hero-section .carousel-caption {
+        clip-path: polygon(100% 100%, 100% 100px, 0 100%);
+        padding-right: 80px;
+        min-width: inherit;
+        min-height: inherit;
+    } 
+}
+
+
+#hero-section .carousel-item {
+    height: 680px;
+} 
+@media screen and (max-width:991px){
+    #hero-section .carousel-item {
+        height: inherit;
+    } 
+}
+
+#hero-slide .carousel-image {
+    height: 100%;
+    object-fit: cover;
+}
+
+#hero-section .carousel-caption h1{
+    font-size: 52px;
+    font-weight: 700;
+    color: #5a6f80;
+}
+
+#hero-section .carousel-caption p{
+    font-size: 16px;
+    color: #717275;
+}
+
+
+/* hover img */
+
+.section-padding .ttile{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+   
+}
+
+.navbar-brand small {
+    color: var(--secondary-color);
+    
+    font-size: 10px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.section-padding strong {
+    font-weight: bold;
+}
+.section-padding .img-cntent{
+    padding: 15px;
+    transition: all .5s;
+}
+.section-padding .img-cntent:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+.section-padding .img-cntent img{
+    transition: all .5s;
+}
+.section-padding .img-cntent:hover img{
+    transform: scale(0.7);
+}
+
+.section-padding .img-cntent:hover .ttile{
+   transition: all .5s;
+}
+.section-padding .img-cntent:hover .ttile{
+    transform: translate(0px, -8px);
+}
+
+
+/* about section */
+
+.about-section{
+    padding: 100px 0;
+    background-color: #5a6f80;
+}
+.about-section .lft-img img{
+    border-radius:20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-section .myslf{
+    background: #fff;
+    border-radius: 20px;
+    padding: 40px;
+}
+.about-section .myslf h2{
+    font-size: 46px;
+    color: #5a6f80;
+    font-weight: bold;
+}
+
+.about-section .myslf h5{
+  font-size: 20px;
+  color: #22b3c1;
+}
+.about-section .myslf p{
+    font-size: 16px;
+    color: #717275;
+}
