@@ -397,3 +397,12 @@
     background: #22b3c1;
     color: #fff;
 }
+
+
+.volunteer-section .Vlolunteer-img{
+    width: 300px;
+    width: 300px;
+    display: block;
+    border-radius: 100px;
+    object-fit: cover;
+}
