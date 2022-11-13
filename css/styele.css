@@ -320,24 +320,16 @@
     color: #fff;
 }
 
-/* 
-.navbar-nav .btn3{
-    font-size: 14px;
-    color: #22b3c1;
-    background-color: transparent;
-    border: 1px solid #22b3c1;
-    padding: 12px 30px;
-    display: inline-block;
-    border-radius: 20px;
-    font-weight: 500;
-    transition: all .3s;
-    position: relative;
-    overflow: hidden;
-    text-decoration: none;
+
+/* volunteer */
+
+.volunteer-section{
+    background: #5a6f80;
+    padding: 100px 0;
 }
 
-
-.navbar-nav .btn3:hover{
-    background: #22b3c1;
-    color: #fff;
-} */
+.volunteer-section .custom-form{
+    background: #fff;
+    padding: 50px;
+    border-radius: 20px;
+}
