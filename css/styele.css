@@ -168,7 +168,7 @@
 
 .about-section{
     padding: 100px 0;
-    background-color: #5a6f80;
+    background-color: #f0f8ff;
 }
 .about-section .lft-img img{
     border-radius:20px;
@@ -186,6 +186,7 @@
     font-size: 46px;
     color: #5a6f80;
     font-weight: bold;
+    margin: 0;
 }
 
 .about-section .myslf h5{
@@ -196,3 +197,134 @@
     font-size: 16px;
     color: #717275;
 }
+.about-section .myslf h2{
+    color: #22b3c1;
+}
+
+/* about section2 */
+
+ .about-section2{
+    padding: 100px 0;
+}
+.about-section2 img{
+    border-radius: 20px;
+    display: block;
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.about-section2 .cstom-content{
+    padding: 60px 40px;
+}
+.about-section2 .cstom-content h2{
+    color: #5a6f80;
+    font-size: 46px;
+
+}
+
+.about-section2 .social-icn a {
+    display: block;
+    height: 35px;
+    width: 35px;
+    background: #5a6f80;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 20px;
+    color: #fff;
+    transition: all .5s;
+}
+.about-section2 .social-icn i{
+    font-size: 18px;
+}
+.about-section2 .social-icn a:hover{
+    background: #22b3c1;
+}
+
+
+/* about section 3 */
+
+.about-section3{
+    background: #f0f8ff;
+    padding: 100px 0;
+}
+
+.about-section3 h2{
+    font-size: 42px;
+    color: #5a6f80;
+}
+.about-section3 a{
+    text-decoration: none;
+    color: #5a6f80;
+}
+.about-section3 .btn4{
+    padding: 15px 25px;
+    background: #5a6f80;
+    transition: all .5s;
+    border-radius: 20px;
+    color: #fff !important;
+}
+.about-section3 .btn4:hover{
+     background: #22b3c1;
+}
+
+
+/* section4 */
+
+
+.about-section4{
+    padding: 100px 0;
+}
+.about-section4 .cstom-txt{
+    padding: 0 
+    30px 30px ;
+}
+.about-section4 .cstom-txt h5{
+    font-size: 24px;
+    color: #22b3c1;
+}
+
+.about-section4 .pic{
+    border-radius: 20px;
+
+}
+.about-section4 .pic img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+.bton{
+    background: #44525d;
+    border: 2px solid transparent;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #f0f8ff;
+    width: 100%;
+    padding: 10px 25px;
+}
+.bton a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* 
+.navbar-nav .btn3{
+    font-size: 14px;
+    color: #22b3c1;
+    background-color: transparent;
+    border: 1px solid #22b3c1;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+
+.navbar-nav .btn3:hover{
+    background: #22b3c1;
+    color: #fff;
+} */
