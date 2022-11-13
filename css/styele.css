@@ -286,8 +286,14 @@
 
 .about-section4 .pic{
     border-radius: 20px;
+    transition: all .5s;
 
 }
+
+.about-section4 .pic:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .about-section4 .pic img{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -300,6 +306,7 @@
     border-bottom-right-radius: 20px;
     color: #f0f8ff;
     width: 100%;
+    transition: all .5s;
     padding: 10px 25px;
 }
 .bton a{
@@ -307,6 +314,12 @@
     text-decoration: none;
     font-size: 18px;
 }
+
+.bton:hover{
+    background: #22b3c1;
+    color: #fff;
+}
+
 /* 
 .navbar-nav .btn3{
     font-size: 14px;
