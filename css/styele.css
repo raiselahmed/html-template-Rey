@@ -565,3 +565,46 @@ form span i{
     padding-bottom: 13px;
     outline: none;
 }
+
+/* Hppy customer */
+
+
+.hppy-customer{
+    background: #f0f8ff;
+    padding: 100px 0;
+}
+
+.hppy-customer h2{
+    font-size: 46px;
+    color: #5a6f80;
+    font-weight: bold;
+}
+
+.hppy-customer h4{
+    font-size: 28px;
+    color: #000;
+    /* font-weight: bold; */
+}
+.nav-tab img{
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50% !important;
+}
+.nav-tab li{
+    margin: 0 !important ;
+}
+
+.hppy-customer .nav-link {
+    display: block;
+    padding: 0 4px;
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.hppy-customer .tab-content .tab-pane i{
+    color: #717275;
+}
