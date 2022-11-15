@@ -585,28 +585,45 @@ form span i{
     color: #000;
     /* font-weight: bold; */
 }
-.nav-tab img{
-    display: block;
-    width: 45px;
-    height: 45px;
-    border-radius: 50% !important;
-}
-.nav-tab li{
-    margin: 0 !important ;
+
+ 
+.hppy-customer .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -35px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
 }
 
-.hppy-customer .nav-link {
-    display: block;
-    padding: 0 4px;
-    font-size: var(--bs-nav-link-font-size);
-    font-weight: var(--bs-nav-link-font-weight);
-    color: var(--bs-nav-link-color);
-    text-decoration: none;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+.hppy-customer .carousel-indicators img{
+   width: 45px;
+   height: 45px;
+   border-radius: 50%;
 }
-
-.hppy-customer .tab-content .tab-pane i{
-    color: #717275;
+.hppy-customer .carousel-indicators [data-bs-target] {
+     box-sizing: content-box;
+    flex: 0 1 auto; 
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: 0; 
+    cursor: pointer;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
 }
 
 .hppy-customer .name strong{
@@ -618,7 +635,7 @@ form span i{
     color: #fff;
 }
 
-.hppy-customer .tab-pane strong::before {
+.hppy-customer .carousel-item strong::before {
     content: "";
     position: absolute;
     top: -10px;
@@ -631,3 +648,120 @@ form span i{
     border-right: 10px solid transparent;
     border-bottom: 10px solid #5BC1AC;
 }
+
+.hppy-customer .carousel-item i {
+    color: #777;
+}
+
+/* contact section */
+
+
+.contact-section{
+    background: #fff;
+    padding: 100px 0;
+}
+.contact-section h2{
+    font-size: 46px;
+    color: #5a6f80;
+    font-weight: 600;
+}
+.contact-section img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 65px;
+    width: 65px;
+}
+
+
+
+.contact-section .btn4{
+    background: #44525d;
+    border: 2px solid transparent;
+    color: #f0f8ff;
+   display: inline-block;
+    border-radius: 20px;
+    transition: all .5s;
+    padding: 10px 25px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.contact-section .btn4:hover{
+    background: #22b3c1;
+}
+
+.contact-section .custom-form{
+    background: #f0f8ff;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+
+/* footer */
+
+footer{
+    background: #44525D;
+    padding: 100px 0;
+}
+.footer_site .ftr-lgo{
+    width: 80px;
+    height: auto;
+}
+
+.footer_site .fotter-menu{
+    column-count: 2;
+    margin: 0;
+    padding: 0;
+}
+.footer_site .btn7 {
+    background: #5a6f80;
+    border: 2px solid transparent;
+    color: #f0f8ff;
+    display: inline-block;
+    border-radius: 20px;
+    transition: all .5s;
+    padding: 10px 25px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer_site .btn7:hover {
+    background: #22b3c1;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+footer a:hover{
+    color: #22b3c1;
+}
+
+.main-footer{
+    background: #5a6f80;
+    color: #fff;
+    padding: 25px 0;
+}
+
+
+.main-footer .f-icn a {
+    background: #44525d;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    margin-right: 5px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    line-height: 38px;
+}
+
+
+.main-footer .f-icn a:hover {
+    background: #22b3c1;
+}
+
